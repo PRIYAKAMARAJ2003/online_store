@@ -1,0 +1,63 @@
+/* Style for main content layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-top: 70px; /* Adjust the padding to accommodate the navbar height */
+}
+
+/* Style for checkout summary section */
+.checkout-summary {
+    flex-grow: 2;
+}
+
+/* Style for product list */
+.product-list {
+    margin-bottom: 20px;
+}
+
+/* Style for individual product item */
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.product-details h3 {
+    margin: 0;
+}
+
+/* Style for checkout button */
+.checkout-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #45a049;
+}
+
+/* Style for checkout sidebar */
+.checkout-sidebar {
+    flex-basis: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style for order total */
+.order-total p {
+    margin: 0;
+}
+
+

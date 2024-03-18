@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- Add your CSS files here -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <nav class="navbar bg">
+        <ul class="links-container">
+            <li class="link-item"><a href="indexorg.html" class="link" >Home</a></li>
+            <li class="link-item"><a href="product.html" class="link">Product</a></li>
+            <li class="link-item">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="search.html">Furniture</a>
+                        <a href="electronics.html">Electronics</a>
+                        <a href="cosmetics.html">Cosmetics</a>
+                    </div>
+                </div>
+            </li>
+            <li class="link-item"><a href="checkout.html" class="link active">Checkout</a></li>
+            <li class="link-item"><a href="#" class="link"></a></li>
+        </ul>
+
+        <div class="user-interaction">
+            <div class="cart">
+                <a href="cart.html"><img src="image/cart.png" class="cart-icon" alt="">
+                <span class="cart-item-count">00</span></a>
+            </div>
+            <div class="user">
+                <img src="image/user.png" class="user-icon" alt="">
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!-- Add header content here if needed -->
+    </header>
+    <main>
+        <section class="checkout-summary">
+            <h2>Order Summary</h2>
+            <div class="product-list">
+                <!-- Display each product added to cart -->
+                <!-- You can populate this dynamically using JavaScript -->
+                <div class="product-item">
+                    <img src="image/product1.jpg" alt="Product Image">
+                    <div class="product-details">
+                        <h3>Product Name</h3>
+                        <p>Price: Rs.XX.XX</p>
+                        <p>Quantity: 1</p> <!-- This can be dynamic if you allow users to change quantity -->
+                    </div>
+                </div>
+                <!-- Repeat this structure for each product -->
+            </div>
+            <button class="checkout-button">Proceed to Payment</button>
+        </section>
+        <aside class="checkout-sidebar">
+            <h2>Order Total</h2>
+            <div class="order-total">
+                <!-- Calculate and display total order amount here -->
+                <p>Total: Rs.XX.XX</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <!-- Add footer content here if needed -->
+    </footer>
+    <!-- Add your JavaScript files here -->
+    <script src="js/checkout.js"></script>
+</body>
+</html>
